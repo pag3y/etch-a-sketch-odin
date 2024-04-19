@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Dhurjati&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  background-color: #ededed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  width: 10rem;
+  height: 2.5rem;
+}
+
+.title {
+  font-size: 80px;
+}
+
+.items {
+  display: flex;
+  gap: 3rem;
+}
+
+.container {
+  background-color: white;
+  border: 3px solid gray;
+  display: flex;
+  flex-wrap: wrap;
+  width: clamp(400px, 500px, 500px);
+  height: clamp(400px, 500px, 500px);
+}
+
+.elementsPanel {
+  width: 250px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#inputColor {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+#inputColor::-webkit-color-swatch {
+  border-radius: 15px;
+  border: none;
+}
+#inputColor::-moz-color-swatch {
+  border-radius: 15px;
+  border: none;
+}
+
+.color {
+  background-color: #333333;
+  color: #ededed;
+}

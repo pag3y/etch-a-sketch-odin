@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="title">Etch-a-Sketch</h1>
+    <div class="items">
+      <div class="elementsPanel">
+        <input type="color" id="inputColor" name="color" value="#000000" />
+        <button class="paint color">Color mode</button>
+        <button class="rainbow">Rainbow mode</button>
+        <button class="eraser">Eraser</button>
+        <button class="clear">Clear</button>
+        <label for="size" class="text">Grid size: 16x16</label>
+        <input type="range" id="size" value="16" name="size" min="1" max="64" />
+      </div>
+      <div class="container"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
